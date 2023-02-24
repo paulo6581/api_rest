@@ -1,0 +1,10 @@
+-> Configurando e testando o sequelize:
+
+  - instalação dependência: npm i sequelize mariadb
+  - instalação devdependencies: npm i -D sequelize-cli
+
+  -> Criar uma tabela: npx sequelize migration:create --name=alunos
+
+  -> Executar e alterar diretamente na base de dados: npx sequelize db:migrate
+
+  -> Desfazer uma migração: npx sequelize db:migrate:undo
