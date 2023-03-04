@@ -15,7 +15,7 @@
     <li>Node.js</li>
     <li>Express.js</li>
     <li>JavaScript</li>
-    <li>SQL: MariaDB</li>
+    <li>SQL: MySQL</li>
     <li>Sequilize</li>
     <li>Environment variables</li>
  </ul>
