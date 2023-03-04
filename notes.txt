@@ -8,3 +8,10 @@
   -> Executar e alterar diretamente na base de dados: npx sequelize db:migrate
 
   -> Desfazer uma migração: npx sequelize db:migrate:undo
+-----------------------------------------------------------------------------
+nomes de métodos - controllers
+- index -> listar todos os usuários -> GET
+- store/create -> cria um novo usuário -> POST
+- delete -> apaga um usuário - DELETE
+- show -> mostra um usuário -> GET
+- update -> atualiza um usuário -> PATCH OU PUT
