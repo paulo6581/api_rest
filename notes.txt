@@ -15,3 +15,9 @@ nomes de métodos - controllers
 - delete -> apaga um usuário - DELETE
 - show -> mostra um usuário -> GET
 - update -> atualiza um usuário -> PATCH OU PUT
+-----------------------------------------------------------------------------
+-> Autenticação - JWT
+  - JWT (JSON Web Token)
+  - o cliente vai ter uma chave, a cada momento que precisar acessar uma página que precisa de login, vai enviar essa chave para gente e vou conferir se bate com a chave que gerou para o usuário.
+
+  -> instalar: npm i jsonwebtoken
