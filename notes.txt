@@ -8,6 +8,10 @@
   -> Executar e alterar diretamente na base de dados: npx sequelize db:migrate
 
   -> Desfazer uma migração: npx sequelize db:migrate:undo
+
+  -> Seeds: usado para gerar dados na base de dados.
+    - como criar o seeds: npx sequelize seed:generate --name criar-usuarios
+    - executar ou inserir os dados: npx sequelize db:seed:all
 -----------------------------------------------------------------------------
 nomes de métodos - controllers
 - index -> listar todos os usuários -> GET
@@ -21,3 +25,4 @@ nomes de métodos - controllers
   - o cliente vai ter uma chave, a cada momento que precisar acessar uma página que precisa de login, vai enviar essa chave para gente e vou conferir se bate com a chave que gerou para o usuário.
 
   -> instalar: npm i jsonwebtoken
+
